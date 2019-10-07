@@ -16,8 +16,6 @@ def is_weird(num):
             return 'Not Weird'
         elif num % 2 == 1:
             return 'Weird'
-    else:
-        return 'Write a number between 1 and 100.'
 
 
 if __name__ == '__main__':
